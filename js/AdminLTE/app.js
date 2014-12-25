@@ -93,7 +93,9 @@ $(window).load(function() {
     });
 
     /* Sidebar tree view */
-    $(".sidebar .treeview").tree();
+    setTimeout(function () {
+        $(".sidebar .treeview").tree();
+    }, 500);
 
     /* 
      * Make sure that the sidebar is streched full height
